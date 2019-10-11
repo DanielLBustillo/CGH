@@ -1,0 +1,10 @@
+/* Estamos trabaando con la etiqueta del cuerpo, y por lo tanto con la página COMPLETA */
+body
+{
+    background-color: black; /* La página de fondo será negra */
+    color: white; /*El texto de la página será blanco */
+}
+
+img{
+	margin-top: 0px; 
+}

@@ -1,0 +1,336 @@
+{% extends "base_generic.html" %}
+
+{% block content %}
+
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      {% load static %}
+      <a href="#"><img class="navbar-brand" src="{% static "img/logoo.png" %}" alt="MAIN LOGO"></a>
+      <!--<a class="navbar-brand" href="#">-->
+      
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+     <ul class="nav navbar-nav navbar-center">
+        <li><a href="#bioGrupo">ABOUT</a></li>
+      <li><a href="#discografia">DISCOGRAPHY</a></li>
+      <li><a href="#ultimoDisco">MUSIC</a></li>
+      <li><a href="#splayed">SHOWS PLAYED</a></li>
+      <li><a href="#">CONTACT</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+ {% load static %}
+
+<div style="margin-top: 60px" class="container">
+    <a href="#ultimoDisco"><img class="img-responsive" src="{% static "img/ultimoDiscoCompleto.jpg" %}" alt="LAST DISC"></a> <!--Es ultimoDiscoCompleto.png-->
+</div>
+
+
+<div class="container"></div>
+  <div class="container text-center" style="margin-top: 20px">
+	<img class="img-responsive" src="{% static "img/HOME.png" %}" alt="MAIN PHOTO"> <!--Es HOME.png-->
+  </div>
+</div>
+
+
+
+
+
+
+<div id="bioGrupo" class="container bg-4">  
+  <h2 style="margin-top: 10%;" class="text-center">ABOUT</h2><br>  
+  <p class="text-center"> Cannibal Grandpa is a young extreme metal formation from Madrid (Spain) which combines
+different elements of Death Metal such as Slam or Brutal Death Metal with dark Black Metal
+riffs, in addition to gathering the most actual influences from hardcore (Usually tagged as
+Slamming Deathcore).
+Cannibal Grandpa was founded in early 2014 releasing the first demo on YouTube
+containing the very first 2 songs. This allowed them to introduce themselves as a new band
+in their hometown scene. They soon started playing all around the city with different bands
+from all over the country. In October of 2015 the band releases their first album by through
+all digital platforms edited by themselves. This album is considered a millestone due to the
+huge impact it had in both national and international levels. At just one year from the
+begining the band starts playing shows all over the country while spreding the word outside
+Spain with their album. Opening for bigger bands like Rise of The Northstar or Here Comes
+The Kraken or playing huge festivals like Resurrection Fest with Iron Maiden were achieved
+during this album period. Also the band reaches a third place in the legendary Wacken Open
+Air Metal Battle with more than 150 bands from all over the country. This stage comes to an
+end with their first european tour in 2017 reaching countrys like France, Belgium or The
+Netherlands.This album puts the band in one of the tops of deathcore bands in the country.
+
+Right after this tour the band starts recording their 2nd album. Halfway to september 2017
+Cannibal Grandpa releases their album Septum Signa Inferno through Slam Worldwide.
+Digital and physical distribution was handled by Chugcore in United States, Hollowcrown
+Records in the UK and Nakerband for Europe. At this point the band goes another step
+further with their style, incorporating more death metal lines to their music, as much as dark
+riffs and evil melodies. With this album the band gets definitely a place in the international
+scene being the most recogniced “deathcore” band in the country. In October of 2017 the
+band starts the Septum Signa Inferno Tour releasing the album all over Spain and Europe
+with more than 50 shows played in countries like Germany, France, Belgium, Switzerland,
+Poland or Czech Republic. Played shows with bands like Carnifex or Stray from The Path,
+and festivals like legendary Download Festival in Madrid with Scorpions, Slipknot and Tool,
+DeathFeast in Germany with Dying Fetus and The Black Dahlia Murder or Fall In The Brawl
+Festival in the UK with Ingested and Acrania. Cannibal Grandpa signs with the mighty
+american booking agency Artery Global for European Booking in early 2018. Due to several
+problems acording with the agency the 1 and a half month tour with american deathcore
+band Angelmaker got cancelled as well as our headlining tour in the east of europe.
+“EVIL” is our most elaborated, mature and powerful album ever. It´s a new path for Death
+Metal listeners never listened before. Combining the fresh 90´s and 2000´s death metal
+sound with electronic music and modern black metal all over a malevolent orchestra playing
+evil symphonies, the band reaches his own unique style with no tags at all. Cannibal
+Grandpa is the story of the american serial killer Albert Fish and some of the atrocities he
+commited telled in every album. In this one we wanted to represent the evil as a concept in
+the most raw and extreme form possible. Albert Fish is the humanization of Evil in the
+modern world. Every song tells a different evil story, some of them are real based stories
+and some others are more ficticial, but all stories have something real and really evil. Albert
+Fish passed away in the electric chair and her son Alben Fish continued his legacy with the
+cannibal cult so in this concept album we wanted to reflect that evil never disappears even
+though his human form does.
+This album has been produced, recorded, mixed and mastered by the guitarist of the band
+Alex Tena. All videos were produced and edited by the drummer of the band Rubén
+Contreras. (As we always do for every album)</p>
+ </div>
+ <br><br><br><br>
+ {% load static %}
+
+  <div id="discografia"  class="container">
+  <h2 class="text-center" style="margin-top: 10%;">DISCOGRAPHY</h2><br><br>
+  <div class="row">
+    <div class="col-sm-6">
+      <a href="https://open.spotify.com/album/44JLtEYxyBfPAK08AL2VsC"><img class="img-fluid" style="padding-left:10%; padding-bottom: 10%;" src="{% static "img/SSI.jpg" %}" alt="DISCO1"></a>
+    </div>
+    <div class="col-sm-6">
+      <a href="https://open.spotify.com/album/0QWV4jBKzxxkwzcpRWfOe3"><img class="img-fluid"  style="padding-left:20%; padding-bottom: 10%;" src="{% static "img/FYF.jpg" %}" alt="DISCO2"></a>
+    </div>
+  </div>
+</div>
+
+
+<div id="ultimoDisco" class="container bg-3">
+	<h2 style="padding-top:20%;" class="text-center">LAST DISC</h2><br>  
+	<iframe width="100%" height="250" scrolling="no" frameborder="no" allow="autoplay"
+  		src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/293&amp;{ }">
+
+	</iframe>
+	<br><br><br>
+
+</div>
+
+<!------------------------------------------------------------------------>
+<style>
+	.collapse1{
+		background: black; 
+		margin-left: 100px;
+		margin-right: 100px;
+	}
+</style>
+
+
+<h2 class="text-center" id="splayed">SHOWS PLAYED</h2><br>  
+<div class="panel-group">
+  <div class="panel panel-default" style="background: black; margin-left:100px; margin-right: 100px;">
+    <div class="panel-heading" style="background: #2d2d30; color:white;">
+      <h4 class="panel-title" class="text-center">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">
+        2019</a>
+      </h4>
+    </div>
+    <div id="collapse1" class="panel-collapse collapse in">
+      <div class="panel-body" id="panelBody">
+      	- 28 June 2019 - Download Festival - Madrid<br>
+      	- 14 Sept 2019 - Sevilla<br>
+		- 22 Feb 2019 - Barcelona<br>
+    </div>
+  </div>
+</div>
+
+
+   <div class="panel panel-default" style="background: black; margin-left:100px; margin-right: 100px;">
+    <div class="panel-heading" style="background: #2d2d30; color:white;">
+      <h4 class="panel-title" id="panel">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">
+        2018</a>
+      </h4>
+    </div>
+    <div id="collapse2" class="panel-collapse collapse">
+      <div class="panel-body">	- 27 January 2018 - Madrid<br>
+								- 3 Feb 2018 - Sevilla<br>
+								- 15 Feb 2018 - Alicante<br>
+								- 16 Feb 2018 - Murcia<br>
+								- 17 Feb 2018 - Valencia<br>
+								- 18 Feb 2018 - Barcelona<br>
+								- 16 March 2018 - Cordoba<br>
+								- 19 March 2018 - Barcelona<br>
+								- 20 March 2018 - Zaragoza<br>
+								- 21 March 2018 - Madrid<br>
+								- 23 March 2018 Karlsruhe (GER)<br>
+								- 24 March 2018 Zurich (CH)<br>
+								- 25 March 2018 Paris (FR)<br>
+								- 26 March 2018 Volmerange - les mines (FR)<br>
+								- 27 March 2018 Hengelo (NL)<br>
+								- 28 March 2018 Hamme (BE)<br>
+								- 29 March 2018 Fontaine L’eveque (BE)<br>
+								- 30 March 2018 Overpelt (BE)<br>
+								- 31 March 2018 Leipzig (GER)<br>
+								- 1 April 2018 Oberhausen (GER)<br>
+								- 13 April 2018 - Barcelona<br>
+								- 14 April 2018 - Tarragona<br>
+								- 4 May 2018 - Vigo<br>
+								- 8 June 2018 - Oviedo<br>
+								- 21 June 2018 - Madrid<br>
+								- 3 August 2018 -Madrid<br>
+								- 21 August 2018 Fontaine L’eveque (BE)<br>
+								- 23 August 2018 - Deathfeast - Germany<br>
+								- 19 Sept 2018 Nantes (FR)<br>
+								- 20 Sept 2018 Stuttgart (GER)<br>
+								- 21 Sept 2018 Náchod (CZ)<br>
+								- 22 Sept 2018 Ostrava (CZ)<br>
+								- 23 Sept 2018 Bialsko Biala (PL)<br>
+								- 24 Sept 2018 Brno (CZ)<br>
+								- 25 Sept 2018 Bydgoszcz (PL)<br>
+								- 26 Sept 2018 Praha (CZ)<br>
+								- 27 Sept 2018 Novy Jicin (CZ)<br>
+								- 28 Sept 2018 Kostelec Nad Orlici (CZ)<br>
+								- 29 Sept 2018 Hasselt (BE)<br>
+								- 30 Sept 2018 Lens (BE)<br>
+								- 26 Oct 2018 - Oviedo<br>
+								- 27 Oct 2018 - Bilbao<br>
+								- 3 Nov 2018 - Mallorca<br>
+		</div>
+    </div>
+  </div>
+  <div class="panel panel-default" style="background: black; margin-left:100px; margin-right: 100px;">
+    <div class="panel-heading" style="background: #2d2d30; color:white;">
+      <h4 class="panel-title" id="panel">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">
+        2017</a>
+      </h4>
+    </div>
+    <div id="collapse3" class="panel-collapse collapse">
+      <div class="panel-body">	- 27 Enero 2017 - Madrid<br>
+								- 3 Marzo 2017 - A coruña<br>
+								- 1 Abril 2017 - Salamanca<br>
+								- 4 abril 2017 - Bourdeaux (FR)<br>
+								- 5 Abril 2017 - Nantes (FR)<br>
+								- 7 Abril 2017 - Overpelt (BE)<br>
+								- 8 Abril 2017 - Tournai (BE)<br>
+								- 9 Abril 2017 - Hengelo (NL)<br>
+								- 10 Abril 2017 - Lille (FR)<br>
+								- 3 June 2017 - Madrid<br>
+								- 7 July 2017 - Valencia<br>
+								- 3 Nov 2017 - Oviedo<br>
+								- 11 Nov 2017 - Manchester (UK)<br>
+								- 18 Nov 2017 - Donosti<br>
+		</div>
+    </div>
+  </div>
+
+    <div class="panel panel-default" style="background: black; margin-left:100px; margin-right: 100px;">
+    <div class="panel-heading" style="background: #2d2d30; color:white;">
+      <h4 class="panel-title" id="panel">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse4">
+        2016</a>
+      </h4>
+    </div>
+    <div id="collapse4" class="panel-collapse collapse">
+      <div class="panel-body">	- 22 January 2016 - Madrid<br>
+								- 30 January 2016 - Valencia<br>
+								- 19 february 2016 - a Coruña<br>
+								- 20 february 2016 - Ourense<br>
+								- 26 february 2016 Barakaldo<br>
+								- 4 march 2016 - Wacken Semifinal Madrid<br>
+								- 11 March 2016 - Pamplona<br>
+								- 12 March 2016 - Donostia<br>
+								- 9 April 2016 - sabadell<br>
+								- 22 April 2016 - Valladolid<br>
+								- 7 May 2016 - Wacken Final Metal Battle<br>
+								- 18 Junio 2016 - The Allstar 2K16 - Valencia<br>
+								- 9 July - resurrection fest<br>
+								- 21 Julio 2016 - Alicante<br>
+								- 22 julio 2016 - Elda<br>
+								- 23 Julio 2016 - Benidorm<br>
+								- 24 Septiembre - Rivas (Madrid)<br>
+								- 30 Septiembre 2016 - Sevilla<br>
+								- 30 octubre 2016 - Madrid<br>
+								- 5 Noviembre 2016 - Madrid<br>
+								- 25 Noviembre 2016 - Oñati<br>
+								- 23 Diciembre 2016 - Valencia<br>
+		</div>
+    </div>
+  </div>
+
+   <div class="panel panel-default" style="background: black; margin-left:100px; margin-right: 100px;">
+    <div class="panel-heading" style="background: #2d2d30; color:white;">
+      <h4 class="panel-title" id="panel">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse5">
+        2015</a>
+      </h4>
+    </div>
+    <div id="collapse5" class="panel-collapse collapse">
+      <div class="panel-body">	- 6 Febrero 2015 - Madrid<br>
+								- 21 Marzo 2015 - Madrid<br>
+								- 27 Marzo 2015 - Sevilla<br>
+								- 29 Mayo - Madrid<br>
+								- 12 june 2015 - Merge - Madrid<br>
+								- 3 July 2015 - Black Lotus fest - Sevilla<br>
+								- 29 May 2015 - Madrid<br>
+								- 7 November 2015 - Core or Die fest - Madrid<br>
+								- 18 September 2015 - Madrid<br>
+								- 31 October 2015 - Halloweed - Sevilla<br>
+								- 16 October 2015- Salou<br>
+								- 23 October 2015 - Vigo<br>
+								- 14 November 2015 - Alicante<br>
+								- 7 November 2015 - Jaén<br>
+								- 21 November 2015 - Valencia<br>
+								- 18 December 2015 - Madrid<br>
+		</div>
+    </div>
+  </div>
+
+  <div class="panel panel-default" style="background: black; margin-left:100px; margin-right: 100px;">
+    <div class="panel-heading" style="background: #2d2d30; color:white;">
+      <h4 class="panel-title" id="panel">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse6">
+        2014</a>
+      </h4>
+    </div>
+    <div id="collapse6" class="panel-collapse collapse">
+      <div class="panel-body">	- 9 enero 2014 - Tres Cantos (Madrid)<br>
+								- 24 febrero 2014 - Tres Cantos (Madrid)<br>
+								- 3 Mayo 2014 - Alcobendas (Madrid)<br>
+								- 28 Mayo 2014 - Tres Cantos (Madrid)<br>
+								- 23 Junio 2014 - Tres Cantos (Madrid)<br>
+								- 1 Noviembre 2014 - Madrid<br>
+								- 7 Noviembre 2014 - Madrid<br>
+		</div>
+    </div>
+  </div>
+
+
+  </div>
+</div>
+
+
+
+<br><br><br>
+<footer class="text-center">
+  <a class="up-arrow" href="#myPage" data-toggle="tooltip" title="TO TOP">
+    <span class="glyphicon glyphicon-chevron-up"></span>
+  </a><br><br>
+  <strong>&copy; Copyright 2019, Cannibal Grandpa</strong>
+  <a href="https://www.facebook.com/cannibalgrandpa" class="fa fa-facebook"></a>
+  <a href="https://instagram.com/cannibalgrandpa" class="fa fa-instagram"></a>
+  <a href="https://open.spotify.com/artist/32IWsFBTb2FQvUKRsNLkTO?si=1LE2bRw-ScmsEe2qpgyBfw" class="fa fa-spotify"></a>
+</footer>
+
+
+
+{% endblock %}
